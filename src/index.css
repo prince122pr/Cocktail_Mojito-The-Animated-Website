@@ -23,6 +23,9 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+::-webkit-scrollbar{
+    display: none
+}
 
 @utility flex-center {
     @apply flex justify-center items-center;
@@ -85,7 +88,7 @@ body {
     }
 
     .noisy {
-        @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+        @apply absolute inset-0 size-full bg-[url("/src/assets/images/noise.png")];
     }
 
     #hero {
