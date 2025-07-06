@@ -75,7 +75,7 @@ body {
         }
 
         p {
-            @apply font-modern-negra text-3xl -mb-2;
+            @apply font-modern-negra text-2xl -mb-2;
         }
 
         a {
@@ -83,7 +83,7 @@ body {
         }
 
         ul {
-            @apply flex-center lg:gap-12 gap-7;
+            @apply lg:flex-center md:flex-center lg:gap-12 hidden gap-7;
         }
     }
 
